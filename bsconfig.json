@@ -1,5 +1,5 @@
 {
-  "name": "bs-react-split-panet",
+  "name": "bs-react-split-pane",
   "sources": {
     "dir" : "src",
     "subdirs" : false
