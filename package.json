@@ -1,0 +1,17 @@
+{
+    "name": "bs-react-split-pane",
+    "version": "0.1.0",
+    "description": "Bucklescript bindings for React Split Pane",
+    "license": "MIT",
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/voodoos/bs-react-split-pane"
+    },
+    "dependencies": {
+	"react-split-pane": "^2.0.0"
+    },
+    "devDependencies": {
+	"bs-platform": "^2.2.3",
+	"reason-react": ">=0.3.4"
+    }
+}

@@ -1,0 +1,16 @@
+# emacs
+*~
+
+# node
+node_modules
+
+# bsb
+lib
+.merlin
+
+# vscode
+.vscode
+
+
+# yarn
+yarn-error.log
