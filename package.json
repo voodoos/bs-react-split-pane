@@ -8,7 +8,7 @@
         "url": "https://github.com/voodoos/bs-react-split-pane"
     },
     "dependencies": {
-        "react-split-pane": "https://github.com/voodoos/bs-react-split-pane#v2"
+        "react-split-pane": "https://github.com/voodoos/react-split-pane#v2"
     },
     "devDependencies": {
         "bs-platform": "^2.2.3",
