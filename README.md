@@ -3,6 +3,8 @@
 
 A work in progress Bucklescript and ReasonReact set of bindings for [bs-react-split-pane v2](https://github.com/tomkp/react-split-pane/tree/v2). 
 
+
+
 ## Introduction
 
 This is very early work in progress that I build to fulfill my need. But I hope it is a clean enough basis for anyone to participate (there are loads of components with hundreds of properties in Semantic UI React).
