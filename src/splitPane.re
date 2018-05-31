@@ -14,7 +14,7 @@ let make =
       ~size: option(int)=?,
       ~resizerSize: option(int)=?,
       ~step: option(int)=?,
-      ~onDragFinished: unit => unit=() => (),
+      ~onResizeEnd: Js.t(_) => unit=_sizes => (),
       children,
     ) =>
   ReasonReact.wrapJsForReason(
@@ -30,7 +30,7 @@ let make =
       "size": Js.Nullable.fromOption(size),
       "resizerSize": Js.Nullable.fromOption(resizerSize),
       "step": Js.Nullable.fromOption(step),
-      "onDragFinished": onDragFinished,
+      "onResizeEnd": onResizeEnd,
     },
     children,
   );
