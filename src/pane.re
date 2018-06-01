@@ -10,6 +10,7 @@ let make =
       ~initialSize: option(string)=?,
       ~minSize: option(string)=?,
       ~maxSize: option(string)=?,
+      ~size: option(string)=?,
       children,
     ) =>
   ReasonReact.wrapJsForReason(
@@ -20,6 +21,7 @@ let make =
       "initialSize": Js.Nullable.fromOption(initialSize),
       "minSize": Js.Nullable.fromOption(minSize),
       "maxSize": Js.Nullable.fromOption(maxSize),
+      "size": Js.Nullable.fromOption(size),
     },
     children,
   );
