@@ -1,5 +1,5 @@
 [@bs.module]
-external pane : ReasonReact.reactClass = "react-split-pane/src/Pane.js";
+external pane : ReasonReact.reactClass = "react-split-pane/lib/Pane.js";
 
 open Types;
 
